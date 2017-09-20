@@ -1,0 +1,32 @@
+fieldset {
+    width: 700px;
+}
+legend {
+    font-size: 20px;
+}
+fieldset label {
+    text-align: right;
+    width: 200px;
+    float: left;
+    font-weight: bold;
+    padding-right: 20px;
+}
+fieldset textarea {
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+fieldset div {
+    clear: both;
+    padding: 5px;
+}
+fieldset select{
+    margin-left: 5px;
+    float: left;
+}
+fieldset input[type=checkbox] {
+    margin-left: 220px;
+}
+fieldset input[type=submit] {
+    margin-left: 220px;
+}
