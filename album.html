@@ -1,26 +1,43 @@
 <!DOCTYPE HTML>
 <html>
 <!-- Developed by Colin Principe September 18 2017 -->
-<link href="albumStyles.css" 
-rel="stylesheet" 
-type="text/css" />
+<link href="albumStyles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada">
+
 <head>
     <title>Phantom Power</title>
 </head>
 <style>
-td { text-align: center; }
+    td {
+        text-align: center;
+    }
+
+    .customfont {
+        font-family: "Galada", Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .albumPhoto {
+        background-image: url("images/phantomPower.jpg");
+        width: 343px;
+        height: 300px;
+        margin: auto;
+    }
+    li{
+        font-style: italic;
+    }
 </style>
 
 <body>
+    <div align="center" class="albumPhoto">
+    </div>
     <div align="center">
-        <img src="images/phantomPower.jpg" alt="Phantom Power Album Cover" align="middle" />
-        <h1>Phantom Power</h1>
+        <h1 class="customfont">PHANTOM POWER</h1>
         <h2><a href="http://www.thehip.com/" target="_blank">The Tragically Hip</a></h2>
         <h3>Released July 14, 1998</h3>
     </div>
     <hr>
     <div>
-        <h3 align="center">Band Members and Producers</h3>
+        <h3 align="center" class="customfont">Band Members and Producers</h3>
         <ul style="margin-left:30px">
             <li><strong>Gord Downie</strong>- Vocals, Guitar</li>
             <li><strong>Bob Baker</strong>- Lead Guitar</li>
