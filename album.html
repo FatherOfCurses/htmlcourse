@@ -3,24 +3,23 @@
 <!-- Developed by Colin Principe September 18 2017 -->
 <link href="albumStyles.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Galada">
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+  <!-- Optional theme -->
+<link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+  <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+</script>
 
 <head>
     <title>Phantom Power</title>
 </head>
 <style>
-    td {
-        text-align: center;
-    }
 
     .customfont {
         font-family: "Galada", Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .albumPhoto {
-        background-image: url("images/phantomPower.jpg");
-        width: 343px;
-        height: 300px;
-        margin: auto;
     }
 
     li {
@@ -44,17 +43,18 @@
         text-decoration: underline;
     }
 
-    td {
-        font-style: italic;
-        background: black;
-        color: white;
+    caption {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
     }
 </style>
 
 <body>
-    <div align="center" class="albumPhoto">
-    </div>
     <div align="center">
+        <img src="images/phantomPower.jpg" class="img-circle" alt="Phantom Power Album Cover" width="343" height="300"/>
         <h1 class="customfont">PHANTOM POWER</h1>
         <h2><a href="http://www.thehip.com/" target="_blank">The Tragically Hip</a></h2>
         <h3>Released July 14, 1998</h3>
@@ -71,8 +71,8 @@
             <li><strong>Producers</strong> - Steve Berlin, Mark Vreeken, The Tragically Hip</li>
         </ul>
     </div>
-    <div align="center">
-        <table border="1" style="width:90%">
+    <div style="width:70%;text-align:center" class="container" text>
+        <table align="center" class ="table table-striped responsive">
             <caption>
                 <h3>Tracks
                     <h3></h3>
@@ -82,6 +82,7 @@
                 <th>Track Title</th>
                 <th>Track Length</th>
             </tr>
+            <tbody>
             <tr>
                 <td>1</td>
                 <td>Poets</td>
@@ -142,6 +143,7 @@
                 <td>Emporer Penguin</td>
                 <td>4:08</td>
             </tr>
+            </tbody>
         </table>
     </div>
 </body>

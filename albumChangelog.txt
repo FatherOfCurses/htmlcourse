@@ -1,0 +1,11 @@
+Changelog
+
+v5
+--
+
+September 25
+
+	Add Bootstrap to the page.
+	The Tracks table should be a responsive table.
+	Alternate the background color of the tracks.
+	Show the album in a circle shape.
